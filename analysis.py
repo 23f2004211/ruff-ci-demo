@@ -1,6 +1,7 @@
-import json
-import os
-import sys
+def analyze(data):
+    result = sorted(data)
+    return result
 
-y = 2
-print(y)
+
+numbers = [3, 1, 2]
+print(analyze(numbers))
